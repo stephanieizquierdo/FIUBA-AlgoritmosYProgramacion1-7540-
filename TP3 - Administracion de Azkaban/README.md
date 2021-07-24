@@ -22,7 +22,7 @@ Abrir terminal en la carpeta donde reciden los archivos e ingresar lo siguiente:
 gcc *.c -o azkaban -std=c99 -Wall -Werror -Wconversion
 ```
 ## :pushpin: Ejecución
-Abrir terminal donde se encuentra el ejecutable "juego" e ingresar lo siguiente:
+Abrir terminal donde se encuentra el ejecutable "azkaban" e ingresar lo siguiente:
 ```
 ./azkaban
 ```

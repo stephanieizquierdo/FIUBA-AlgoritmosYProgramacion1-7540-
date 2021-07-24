@@ -17,6 +17,7 @@ Abrir terminal donde se encuentra el ejecutable "caliz" e ingresar lo siguiente:
 ```
 ./caliz
 ```
+
 Detalles del enunciado: [TP1-Enunciado.pdf](https://github.com/stephanieizquierdo/FIUBA-AlgoritmosYProgramacion1-7540-/blob/master/TP1%20-%20Competencia%20Caliz%20de%20Fuego/TP1-Enunciado.pdf)
 
 ### Buena suerte magos!
