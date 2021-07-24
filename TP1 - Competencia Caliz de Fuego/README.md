@@ -1,10 +1,10 @@
-# Trabajo Practico 1 - Selección Caliz de Fuego :trophy:
+# Trabajo Practico 1 - Selección Caliz de Fuego
 
-Bienvenidos al programa seleccionador del Caliz de Fuego! En él se deberán ingresar los datos de todos los alumnos que quieran competir
+:trophy: Bienvenidos al programa seleccionador del Caliz de Fuego! En él se deberán ingresar los datos de todos los alumnos que quieran competir
 
-Recuerde que la competencia es sumamente riosgosa, por lo cual para poder ser evaluado el alumno deberá tener más de 17 años :underage:
+:underage: Recuerde que la competencia es sumamente riosgosa, por lo cual para poder ser evaluado el alumno deberá tener más de 17 años
 
-Se evaluaran las aptitudes físicas y mentales y sus aptitudes academicas :bar_chart:
+:bar_chart: Se evaluaran las aptitudes físicas y mentales y sus aptitudes academicas.
 
 
 Detalles del enunciado: [TP1-Enunciado.pdf](https://github.com/stephanieizquierdo/FIUBA-AlgoritmosYProgramacion1-7540-/blob/master/TP1%20-%20Competencia%20Caliz%20de%20Fuego/TP1-Enunciado.pdf)
@@ -20,4 +20,4 @@ Abrir terminal donde se encuentra el ejecutable "caliz" e ingresar lo siguiente:
 ./caliz
 ```
 
-Buena suerte magos!
+### Buena suerte magos!
