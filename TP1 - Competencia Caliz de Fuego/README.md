@@ -7,7 +7,7 @@ Recuerde que la competencia es sumamente riosgosa, por lo cual para poder ser ev
 Se evaluaran las aptitudes físicas y mentales y sus aptitudes academicas :bar_chart:
 
 
-Detalles del enunciado: [TP1-Enunciado.pdf](https://github.com/stephanieizquierdo/FIUBA-AlgoritmosYProgramacion1-7540-/blob/master/TP1%20-%20Competencia%Caliz%20de%20Fuego/TP1-Enunciado.pdf)
+Detalles del enunciado: [TP1-Enunciado.pdf](https://github.com/stephanieizquierdo/FIUBA-AlgoritmosYProgramacion1-7540-/blob/master/TP1%20-%20Competencia%20Caliz%20de%20Fuego/TP1-Enunciado.pdf)
 
 ## :pushpin: Compilación
 Abrir terminal en la carpeta donde recide el archivo caliz.c e ingresar lo siguiente:
