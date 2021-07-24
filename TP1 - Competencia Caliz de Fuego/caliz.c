@@ -8,12 +8,7 @@ const int RANGO_MIN = 0, RANGO_MAX = 10;
 const char CATEGORIA_BUENA = 'B', CATEGORIA_REGULAR = 'R',  CATEGORIA_MALA = 'M';
 
 
-/*Pre: recibe una letra
-  Pos: Guarda dicha letra en mayuscula */
-void ingreso_alumnos(char *ingresar_alumnos){
-    printf("Desea ingresar un alumno? (N para ​ NO​ , cualquier otra tecla para sí) ");
-    scanf(" %c", ingresar_alumnos);
-}
+/*===============================VERIFICACIONES===============================/
 
 /*Pre: recibe una letra previamente ingresada
   Pos: verifica que la letra corresponga a alguna de las esperadas.*/
@@ -27,6 +22,15 @@ bool verificar_rango(int *numero){
     return ((*numero) >= RANGO_MIN && (*numero) <= RANGO_MAX);
 }
 
+/*========================SOLICITACION DE DATOS===============================*/
+
+/*Pre: recibe una letra que es ingresada por consola
+  Pos: Guarda dicha letra*/
+void ingreso_alumnos(char *ingresar_alumnos){
+    printf("Desea ingresar un alumno? (N para ​ NO​ , cualquier otra tecla para sí) ");
+    scanf(" %c", ingresar_alumnos);
+}
+
 /*pre: recibe un numero para representar la edad del alumno
   pos: guarda dicho numero como la edad el alumno*/
 void pedir_edad (int *edad){
@@ -35,7 +39,8 @@ void pedir_edad (int *edad){
 }
 
 /*pre: recibe un numero como representacion de la inteligencia
-  pos: guarda el numero como la inteligencia del alumno si es que cumple con el rango esperado*/
+  pos: guarda el numero como la inteligencia del alumno si es que cumple con el
+       rango esperado*/
 void pedir_inteligencia(int *inteligencia){
     do {
         printf("Ingrese su inteligencia (de 0 a 10 inclusives): ");
@@ -69,10 +74,12 @@ void pedir_datos(&inteligencia_alumno, &fuerza_alumno, &categoria_alumno){
     pedir_cat_magica(&categoria_alumno);
 }
 
+/*==================================EVALUACION================================*/
 
-/*Pre:recibe los datos del alumno y del campeon.
-      Ademas tambien recibe la cantidad de alumnos ingresados y la posicion del campeon.
-  Pos:Se actualizaran los datos del campeon y su posición*/
+/*Pre:recibe los datos del alumno y del campeon. Ademas tambien recibe la
+      cantidad de alumnos ingresados y la posicion del campeon.
+  Pos:Se actualizaran los datos del campeon y su posición
+ */
 void evaluar_campeon(int *posicion_campeon,int *inteligencia_campeon, int *fuerza_campeon, char *categoria_campeon, int alumnos, int inteligencia_alumno, int fuerza_alumno, char categoria_alumno){
     if (*inteligencia_campeon < inteligencia_alumno) {
         ((*inteligencia_campeon) = inteligencia_alumno);
@@ -95,6 +102,7 @@ void evaluar_campeon(int *posicion_campeon,int *inteligencia_campeon, int *fuerz
      }
 }
 
+/*====================================OUTPUT==================================*/
 /*
  * Imprime el resultado de la competencia. En caso de que haya un campeon, se imprimen sus datos
  */
@@ -109,6 +117,8 @@ void mostrar_resultado(int posicion_campeon,int inteligencia_campeon, int fuerza
         printf("No hay campeon :(");
     }
 }
+
+/*============================================================================*/
 
 int main(){
     int alumnos = 0, posicion_campeon = 0;
